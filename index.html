@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Relogio</title>
+</head>
+<body class="active">
+     
+    <button id="btn_definir">Definir Alarme</button>
+
+    <div class="msg">
+    Alarme:
+    </div>
+
+        <div class="modal status">
+            <label for="relogio">
+                Digite em (s)
+                <input type="text" name="relogio" id="input_relogio">
+            </label>
+            <button id="btn_ok">OK </button>
+            <button id="btn_cancel">Fechar </button>
+        </div>
+    <main>
+
+            <div id="relogio">
+    
+            <div id="horas"  class="cor"</div> 
+                <h3 class="horas cor">00</h3>
+                <p>horas</p>
+            </div>
+            
+            <div id="minutos" class="cor"</div>
+                 <h3 class="minutos">00</h3>
+                <p>Minutos</p>
+            </div>
+            
+            <div id="segundos" class="cor"</div> 
+                <h3 class="segundos">00</h3>
+                <p>Segundos</p>
+            </div>
+            <button id="btn_parar" class="parar">PARAR</button>
+            <div id="horas2" class="reflex  cor">
+                <h3 class="horas">00</h3>
+                <p>Segundos</p>
+            </div>
+            
+            <div id="minutos2" class="reflex  cor">
+                <h3 class="minutos">00</h3>
+                <p>Minutos</p>
+            </div>
+            
+            <div id="segundos2" class="reflex cor">
+                <h3 class="segundos">00</h3>
+                <p>Segundos</p>
+            </div>
+            </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
